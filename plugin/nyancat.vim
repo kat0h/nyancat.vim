@@ -283,22 +283,25 @@ let s:PATTERN1 = [
       \]
 
 
-" Init
-let s:popUpWindow = popup_create("", {})
-let s:status = 1
-call win_execute(s:popUpWindow ,'setlocal filetype=nyancatHL')
-"color
+function! Nyan()
+    " Init
+    let s:popUpWindow = popup_create("", {})
+    let s:status = 1
+    call win_execute(s:popUpWindow ,'setlocal filetype=nyancatHL')
+    "color
 
-while s:status
-    for i in range(12)
-        call popup_settext(s:popUpWindow, s:PATTERN1[i])
-        redraw
-        if getchar(0)
-            let s:status = 0
-            break
-        endif
-        sleep 100m
-    endfor
-endwhile
+    while s:status
+        for i in range(12)
+            call popup_settext(s:popUpWindow, s:PATTERN1[i])
+            redraw
+            if getchar(0)
+                let s:status = 0
+                break
+            endif
+            sleep 85m
+        endfor
+    endwhile
 
-call popup_close(s:popUpWindow)
+    call popup_close(s:popUpWindow)
+endfunction
+command! Nyan call Nyan()
