@@ -1,6 +1,23 @@
 # Nyancat.vim
 
-This plugin works on your vim to run nyancat!!
+This plugin works on your vim to run nyancat.
+
+# Usage
+
+You can install it with your favorite plugin manager.
+
+After installation, you can start Nyan!!!
+```
+:Nyan
+```
+
+# Information
+
+The animation code is based on "koron/nyancat-vim".
+
+# Screenshot
+
+![screenshot](https://github.com/kato-k/nyancat.vim/blob/master/img/Jul-23-0002%206-13-44%20PM.gif)
 
 # License
 
