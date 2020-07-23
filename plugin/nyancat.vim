@@ -282,10 +282,12 @@ let s:PATTERN1 = [
       \],
       \]
 
+
 " Init
 let s:popUpWindow = popup_create("", {})
 let s:status = 1
-setlocal filetype=nyancat
+call win_execute(s:popUpWindow ,'setlocal filetype=nyancatHL')
+"color
 
 while s:status
     for i in range(12)
