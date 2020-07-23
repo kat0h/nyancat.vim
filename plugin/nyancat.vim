@@ -285,7 +285,7 @@ let s:PATTERN1 = [
 
 function! Nyan()
     " Init
-    let s:popUpWindow = popup_create("", {"borderchars": ['─', '│', '─', '│', '┌', '┐', '┘', '└'], "border": [1,1,1,1]})
+    let s:popUpWindow = popup_create("", {})
     let s:status = 1
     call win_execute(s:popUpWindow ,'setlocal filetype=nyancatHL')
 
