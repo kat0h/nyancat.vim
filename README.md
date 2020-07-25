@@ -17,7 +17,7 @@ The animation code is based on "koron/nyancat-vim".
 
 # Screenshot
 
-![screenshot](https://raw.githubusercontent.com/kato-k/assets/master/nyancat.png)
+![screenshot](https://raw.githubusercontent.com/kato-k/assets/master/render1595597610318.gif)
 
 # License
 
