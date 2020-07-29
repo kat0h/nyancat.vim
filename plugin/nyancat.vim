@@ -1,6 +1,6 @@
 " Nyancat on your Vim
 "
-" Maintainer: KotaKato <twitter:@uvrub>
+" Maintainer: KotaKato
 
 let s:PATTERN1 = [
       \[
