@@ -282,7 +282,7 @@ let s:PATTERN1 = [
       \],
       \]
 
-
+"Main
 function! Nyan()
     " Init
     let s:popUpWindow = popup_create("", {})
