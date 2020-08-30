@@ -1,6 +1,6 @@
 # Nyancat.vim
 
-This plugin works on your vim to run nyancat.
+This plugin works on your vim to run nyancat.🐈
 
 # Usage
 
