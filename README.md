@@ -6,7 +6,7 @@ This plugin works on your vim to run nyancat.🐈
 
 You can install it with your favorite plugin manager.
 
-After installation, you can start Nyan!!!
+After installation, you can start Nyan🎉
 ```
 :Nyan
 ```
