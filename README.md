@@ -23,6 +23,6 @@ The animation code is based on "koron/nyancat-vim".
 
 MIT
 
-# Author
+# Author 💻
 
 Kota Kato
